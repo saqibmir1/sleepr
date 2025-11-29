@@ -11,8 +11,7 @@ steps:
     ]
 
   - name: 'gcr.io/cloud-builders/docker'
-    args:
-    [ 'push', 'asia-south1-docker.pkg.dev/sleepr-479616/reservations/production' ]
+    args: [ 'push', 'asia-south1-docker.pkg.dev/sleepr-479616/reservations/production' ]
 
 
   # auth
@@ -27,8 +26,7 @@ steps:
     ]
 
   - name: 'gcr.io/cloud-builders/docker'
-    args:
-    [ 'push', 'asia-south1-docker.pkg.dev/sleepr-479616/auth/production' ]
+    args: [ 'push', 'asia-south1-docker.pkg.dev/sleepr-479616/auth/production' ]
 
 
   # notifications
@@ -43,8 +41,7 @@ steps:
     ]
 
   - name: 'gcr.io/cloud-builders/docker'
-    args:
-    [ 'push', 'asia-south1-docker.pkg.dev/sleepr-479616/notifications/production' ]
+    args: [ 'push', 'asia-south1-docker.pkg.dev/sleepr-479616/notifications/production' ]
 
 
 
@@ -60,5 +57,4 @@ steps:
     ]
 
   - name: 'gcr.io/cloud-builders/docker'
-    args:
-    [ 'push', 'asia-south1-docker.pkg.dev/sleepr-479616/payments/production' ]
+    args: [ 'push', 'asia-south1-docker.pkg.dev/sleepr-479616/payments/production' ]
