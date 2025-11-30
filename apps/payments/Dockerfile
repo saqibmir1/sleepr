@@ -10,7 +10,7 @@ RUN npm install
 COPY apps/payments apps/payments
 COPY libs libs
 
-RUN npm run build
+RUN npm run build payments
 
 FROM node:alpine as production
 
