@@ -21,3 +21,4 @@
 .idea/
 *.tmproj
 .vscode/
+k8s/sleepr/artifact-service-account.json
